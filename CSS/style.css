@@ -1,0 +1,16 @@
+body{
+    background-image: url("../IMAGE/IMG_9517.PNG");
+    background-size: cover;
+    background-position: center;
+}
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+
+}
+header {
+  padding-top: 100px;
+  width: 100%;
+}
+/* 
+ */

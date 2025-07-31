@@ -1,0 +1,39 @@
+header{
+    padding-top: 100px;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-family: "Geologica", sans-serif !important;
+}
+#typing-text{
+    padding: 20px;
+    color: aliceblue;
+}
+
+.header-content {
+  padding: 100px 20px 50px; /* Thêm padding-top cho navbar fixed */
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    padding: 80px 15px 30px;
+  }
+  
+  #typing-text {
+    font-size: 1.5rem;
+  }
+}
+.content-container {
+  margin-top: 200px;
+  text-align: center;
+  color: aliceblue;
+}

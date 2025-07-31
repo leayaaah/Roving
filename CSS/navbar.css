@@ -1,0 +1,51 @@
+.navbar{
+    width: 100%;
+}
+nav ul{
+    margin-left: 100px;
+    text-align: right;
+}
+nav ul li{
+    padding: 10px 30px;
+}
+.navbar{
+    text-align: right;
+}
+.navbar-brand:hover {
+    font-weight: 300;
+    text-transform: capitalize;
+    
+}
+.navbar .container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-collapse{
+    /* display: flex;
+    justify-content: flex-end; */
+    flex-grow: 0 !important;
+}
+.navbar-collapse ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .geologica-items .nav-item {
+    margin: 5px 0;
+  }
+  
+  .dropdown-menu {
+    position: static !important;
+    border: none;
+  }
+}

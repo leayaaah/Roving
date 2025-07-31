@@ -1,0 +1,28 @@
+.row img {
+    width: 100%;
+    height: auto;
+}
+.container {
+    position: relative; /* Quan trọng: tạo context cho absolute */
+}
+.container .row {
+    padding: 30px;
+    background-color: rgba(243, 231, 231, 0.384);
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .img-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(146, 146, 146, 0.856);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+
+}
